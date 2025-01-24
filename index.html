@@ -12,79 +12,89 @@
     <link rel="stylesheet" href="src/style.css">
   </head>
 
-    <body class="font-poppins">
+  <body>
+    <div class="container max-w-auto font-poppins relative">
     <!-- Header -->
-    <header class="m-base p-base text-description text-primary">
-      <nav class="flex items-center justify-between p-base">
-        <div>
-          <p class="text-subheading font-semibold"><span class="text-accent">Cozy</span> Corner</p>
-        </div>
-        <ul class="list-none inline-flex space-x-12 flex-grow justify-center">
-          <li><a href="#" class="text-accent">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Featured</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">More</a></li>
-        </ul>
-        <div class="inline-flex space-x-6">
-          <a href="#" class="size-6 pt-4"><img src="icons/search.svg" alt="search icon"></a>
-          <a href="#" class="text-accent underline px-8 py-4">Sign In</a>
-          <a href="#" class="bg-accent text-white px-8 py-4">Sign Up</a>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Hero Section -->
-     <main>
-      <section class="m-base p-base"> <!--Hero image-->
-        <div class="w-7/12 relative">
-          <img src="img/hero-image.jpg" alt="Cozy co-working space" class="px-base w-full h-[90%]">
-        </div>
-      </section>
-        
-      <section class="m-base p-base">
-        <div>
-          <h1>Find your comfort <span>-</span>working zone with Cozy Corner</h1>
-          <p>Change your work environment by using a co-working place, to meet new people and gain a new network.</p>
-          <ul>
-            <li>
-              <img src="icons/Check.svg" alt="Check icon">
-              Virtual Office Setup
-            </li>
-            <li>
-              <img src="icons/Check.svg" alt="Check icon">
-              Open Workspace
-            </li>
-            <li>
-              <img src="icons/Check.svg" alt="Check icon">
-              Space for Event
-            </li>
-            <li>
-              <img src="icons/Check.svg" alt="Check icon">
-              Chill Out Zone
-            </li>
+      <header class="m-base p-base text-description text-primary">
+        <nav class="flex items-center justify-between p-base">
+          <div>
+            <p class="text-subheading font-semibold"><span class="text-accent">Cozy</span> Corner</p>
+          </div>
+          <ul class="list-none inline-flex space-x-12 flex-grow justify-center">
+            <li><a href="#" class="text-accent">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">More</a></li>
           </ul>
-        </div>
-      </section>
+          <div class="inline-flex space-x-6">
+            <a href="#" class="size-6 pt-4"><img src="icons/search.svg" alt="search icon"></a>
+            <a href="#" class="text-accent underline px-8 py-4">Sign In</a>
+            <a href="#" class="bg-accent text-white px-8 py-4">Sign Up</a>
+          </div>
+        </nav>
+      </header>
 
-      <!-- Features Section -->
-      <section class="m-base p-base">
-        <article>
-          <img src="icons/Location.svg" alt="Location icon">
-          <h2>20+ Location</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </article>
-        <article>
-          <img src="icons/Room.svg" alt="Rooms icon">
-          <h2>324 Rooms Available</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </article>
-        <article>
-          <img src="icons/wifi.svg" alt="Internet icon">
-          <h2>100% Internet Connected</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </article>
-      </section>
-    </main>
+      <!-- Hero Section -->
+      <main>
+        <!--Hero image-->
+        <section class="m-base p-base"> 
+          <div class="w-7/12 relative">
+            <img src="img/hero-image.jpg" alt="Cozy co-working space" class="px-base">
+          </div>
+        </section>
+        
+        <!--Hero text-->
+        <section class="m-0 py-base px-0 absolute top-56 -right-[16rem] sm:top-56 sm:-right-[18rem] md:top-56 md:-right-[20rem] lg:top-56 lg:-right-[22rem] bg-white bg-opacity-60 backdrop-blur-sm">
+          <div class="w-[70%] ml-16 px-4"> 
+            <h1 class="w-[60%] text-5xl font-playfair mb-6 font-semibold leading-snug ml-0 relative">
+              Find your <span class="relative inline-block">comfort
+                <img src="icons/Rectangle.svg" alt="rectangle design" class="absolute left-full top-1/2 transform -translate-y-1/2 ml-4">
+              </span> working zone with Cozy Corner
+            </h1>
+            <p class="text-secondary text-content mb-8 w-[78%]">
+              Change your work environment by using a co-working place, to meet new people and gain a new network.
+            </p>
+            <ul class="grid grid-cols-2 gap-4 absolute left-72 text-sm font-semibold mt-8">
+              <li class="flex items-center gap-2">
+                <img src="icons/Check.svg" alt="Check icon">
+                Virtual Office Setup
+              </li>
+              <li class="flex items-center gap-2">
+                <img src="icons/Check.svg" alt="Check icon">
+                Open Workspace
+              </li>
+              <li class="flex items-center gap-2">
+                <img src="icons/Check.svg" alt="Check icon">
+                Space for Event
+              </li>
+              <li class="flex items-center gap-2">
+                <img src="icons/Check.svg" alt="Check icon">
+                Chill Out Zone
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="m-base p-base">
+          <article>
+            <img src="icons/Location.svg" alt="Location icon">
+            <h2>20+ Location</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </article>
+          <article>
+            <img src="icons/Room.svg" alt="Rooms icon">
+            <h2>324 Rooms Available</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </article>
+          <article>
+            <img src="icons/wifi.svg" alt="Internet icon">
+            <h2>100% Internet Connected</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </article>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
