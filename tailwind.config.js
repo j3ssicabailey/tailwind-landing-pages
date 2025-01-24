@@ -10,24 +10,31 @@ export default {
         accent: "#9B9A78",
         primary: "#313131",
         secondary: "#909090",
+        accentHover: '#9B9A78',
+        accentFocus: '#313131'
       },
       fontFamily: {
         poppins: ['"Poppins"', 'Verdana', 'sans-serif'],
         playfair: ['"Playfair Display"', "Times New Roman", "serif"],
       },
       fontSize: {
-        'description': '16px',  // For descriptions or smaller text
-        'content': '20px',      // For body content or paragraph text
-        'subheading': '32px',   // For subheadings or section titles
-        'title': '52px',        // For main titles or headers
+        'description': '16px', 
+        'content': '20px',     
+        'subheading': '32px',   
+        'title': '52px',        
       },
       spacing: {
-        'base': '16px', // Default base spacing
-        'section': '40px', // For larger sections
-        'content': '24px', // For padding within cards
+        'base': '16px', 
+        'section': '40px', 
+        'content': '24px', 
+      },
+      transitionDuration: {
+        'normal': '300ms',
+      },
+      boxShadow: {
+        article: '0 4px 12px #909090',  
       },
     },
   },
   plugins: [],
 }
-
