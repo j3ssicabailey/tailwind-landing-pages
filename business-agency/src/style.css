@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #424241; /* text */
+  --secondary-color: #909090; /* light text */
+  --accent-color: #7EDAD2; /* colour bg/text */
+}
+
+html {
+  scroll-behavior: smooth;
+}
