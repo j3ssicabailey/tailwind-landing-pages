@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 3 Creative Agency</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body class="font-poppins">
+    <div class="h-screen relative "> <!--Area for background image-->
+      <header class="text-textLight h-screen flex">
+        <div class="w-3/5 bg-backgroundBlue relative">
+          <div class="flex justify-between items-center mt-8 ml-20 mb-20">
+            <p class="text-4xl font-semibold">Liv<span class="text-customTurquoise">ia</span>.
+            </p>
+            <nav>
+              <ul class="flex space-x-8 mr-24">
+                <li><a href="#" class="p-3 hover-effect">Home</a></li>
+                <li><a href="#" class="p-3 hover-effect">About</a></li>
+                <li><a href="#" class="p-3 hover-effect">Service</a></li>
+                <li><a href="#" class="p-3 hover-effect">Portfolio</a></li>
+                <li><a href="#" class="p-3 hover-effect">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--hero banner-->
+          <section class="ml-20"> <!--hero text left-->
+            <h3 class="text-xl">Hi, there!</h3>
+            <h1 class="text-6xl font-semibold my-8">We are a growing-up Creative Agency from Indonesia!</h1>
+            <h3 class="text-xl max-w-2xl">We provide you with modest and professional dsign templates that come from the synergy of design and technology</h3>
+            <button class="text-textDark bg-textLight text-xl my-10 py-3 px-6 hover-effect">Let's Collaborate 
+              <span class="text-2xl">&#8594;</span>
+            </button>
+          </section>
+        </div>
+        <section class="w-2/5 relative">
+          <div class="absolute top-8 right-24">
+            <a href="#" class="bg-backgroundBlue py-3 px-5 hover-effect">Contact Us</a>
+          </div>
+      
+          <!-- Background image -->
+          <img 
+            src="img/background-image.jpg" 
+            alt="Team collaboration" 
+            class="w-full h-[140%] object-cover"
+          >
+        </section>
+      </header>
+      <main class="absolute -bottom-2/4 left-0 right-0"> 
+        <section class="text-textDark grid grid-cols-3 max-w-6xl gap-20 ml-8 px-10 pt-12 pb-36 bg-white"> <!-- Cards -->
+          <article class="hover:shadow-lg hover:scale-105 transition-transform duration-300 p-5 rounded-md">
+            <img src="icons/Web Design.svg" alt="web design icon" class="size-14">
+            <h6 class="font-bold mt-5 mb-2">Web Design Projects</h6>
+            <p class="text-textMedium">Make your website user friendly and look more professional</p>
+          </article>
+          <article class="hover:shadow-lg hover:scale-105 transition-transform duration-300 p-5 rounded-md">
+            <img src="icons/Social Media.svg" alt="social media icon" class="size-14">
+            <h6 class="font-bold mt-5 mb-2">Social Media Templates</h6>
+            <p class="text-textMedium">Gain more follwers or subscribers with the right template</p>
+          </article>
+          <article class="hover:shadow-lg hover:scale-105 transition-transform duration-300 p-5 rounded-md">
+            <img src="icons/Design.svg" alt="digital artwork icon" class="size-14">
+            <h6 class="font-bold mt-5 mb-2">Digital Artwork</h6>
+            <p class="text-textMedium">Complete your digital work with appropriate artwork</p>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
+
+
